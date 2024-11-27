@@ -39,6 +39,7 @@ _letters = '''
 هَ هُ هِ هَّ هُّ هِّ هْ
 وَ وُ وِ وَّ وُّ وِّ وْ
 يَ يُ يِ يَّ يُّ يِّ يْ
+أ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي
 '''
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
 _arpabet = ['@' + s for s in cmudict.valid_symbols]
